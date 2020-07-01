@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:projectone/landingpagewidgets/bodythings/bodytext.dart';
-import 'package:projectone/landingpagewidgets/navbar.dart';
-import 'package:projectone/allpagesneed/navbar/bottomnavbar.dart';
-import 'package:projectone/loginpages/signin.dart';
-import 'package:projectone/loginpages/signup.dart';
+import 'landingpagewidgets/bodytext.dart';
+import 'allpagesneed/navbar.dart';
+import 'landingpagewidgets/bottomnavbar.dart';
+import 'loginpagewidgets/signin.dart';
+import 'loginpagewidgets/signup.dart';
 
 
 class LandingPage extends StatelessWidget {

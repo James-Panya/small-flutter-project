@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projectone/loginpages/signinboxinsides.dart';
+import './signinboxinsides.dart';
 
 class SignInBody extends StatelessWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projectone/pages/pages.dart';
+import 'package:projectone/pages.dart';
 
 class Navbar extends StatelessWidget {
   @override

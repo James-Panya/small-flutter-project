@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:projectone/loginpages/socialbuttons.dart';
+import 'package:projectone/loginpagewidgets/socialbuttons.dart';
 
 class BoxInsides extends StatelessWidget {
 
