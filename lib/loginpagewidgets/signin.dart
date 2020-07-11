@@ -15,16 +15,14 @@ class SignInBody extends StatelessWidget {
             borderRadius: BorderRadius.circular(8),
             boxShadow: [
               BoxShadow(
-                color: Colors.black54,
-                offset: Offset(-7.0, 15.0),
-                blurRadius: 15
-              ),
+                  color: Colors.black54,
+                  offset: Offset(-7.0, 15.0),
+                  blurRadius: 15),
               BoxShadow(
-                color: Colors.black54,
-                offset: Offset(10.0, -5.0),
-                blurRadius: 10
-              )
-            ], 
+                  color: Colors.black54,
+                  offset: Offset(10.0, -5.0),
+                  blurRadius: 10)
+            ],
           ),
           child: BoxInsides(),
         ),

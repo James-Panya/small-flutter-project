@@ -1,18 +1,12 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:projectone/loginpagewidgets/socialbuttons.dart';
 
 class BoxInsides extends StatelessWidget {
-
   Widget horizontalLine() => Padding(
-    padding: EdgeInsets.symmetric(horizontal: 16),
-    child: Container(
-      width: 200,
-      height: 1,
-      color: Colors.black87.withOpacity(.2)
-    )
-  );
+      padding: EdgeInsets.symmetric(horizontal: 16),
+      child: Container(
+          width: 200, height: 1, color: Colors.black87.withOpacity(.2)));
 
   @override
   Widget build(BuildContext context) {
@@ -45,8 +39,7 @@ class BoxInsides extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Text('Forgot your password?',
-                    style: TextStyle(color: Colors.blue, fontSize: 18)
-                    )
+                    style: TextStyle(color: Colors.blue, fontSize: 18))
               ],
             ),
             Center(
@@ -74,30 +67,22 @@ class BoxInsides extends StatelessWidget {
                                           color: Colors.black87,
                                           fontSize: 18))))))),
             ),
-            SizedBox(
-              height:50
-            ),
+            SizedBox(height: 50),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 horizontalLine(),
                 Text(
                   'or',
-                  style: TextStyle(
-                    fontSize: 16
-                  ),
+                  style: TextStyle(fontSize: 16),
                 ),
                 horizontalLine()
-                ],
+              ],
             ),
-            SizedBox(
-              height: 40
-            ),
+            SizedBox(height: 40),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                
-              ],
+              children: [],
             )
           ],
         ));

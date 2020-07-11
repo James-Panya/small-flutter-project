@@ -54,7 +54,7 @@ class BodyText extends StatelessWidget {
                     )),
                     onPressed: () {
                       customLaunch(
-                          'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+                          'https://www.youtube.com/watch?v=xfr64zoBTAQ&t=9s');
                     },
                     child: Padding(
                         padding: const EdgeInsets.symmetric(
